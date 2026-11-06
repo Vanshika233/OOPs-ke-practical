@@ -1,4 +1,5 @@
 
+
 class Student {
     int rollNo;
     String name;
@@ -22,15 +23,16 @@ class Student {
         System.out.println("Percentage: " + percentage + "%");
         System.out.println();
     }
+}
 
+public class Practical1 {
     public static void main(String[] args) {
-        Student s1 = new Student(1, "Vidhi", 88, 90, 85);
-        Student s2 = new Student(2, "Rahul", 80, 80, 80);
-        Student s3 = new Student(3, "Priya", 92, 90, 94);
+        Student s1 = new Student(1, "Vanshika", 88, 90, 85);
+        Student s2 = new Student(2, "Vidhi", 80, 80, 80);
+        Student s3 = new Student(3, "Sneha", 92, 90, 94);
 
         s1.display();
         s2.display();
         s3.display();
     }
 }
-
